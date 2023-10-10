@@ -1,0 +1,24 @@
+/*_*_*_* Fonts *_*_*_*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*
+    font-family: 'Kumbh Sans', sans-serif;
+*/
+
+/*_*_*_* Reset *_*_*_*/
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*_*_*_* Colours *_*_*_*/
+:root {
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* Neutral */
+    --dark-gray: hsl(0, 0%, 59%);
+}
