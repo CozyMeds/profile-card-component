@@ -21,8 +21,8 @@ This is a solution to the [Profile Card Component  challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-Ng9B4IiTvV)
-- Live Site URL: [Github Pages](https://cozymeds.github.io/Product-preview-card-component/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-UQk6UcOe7A)
+- Live Site URL: [Github Pages](https://cozymeds.github.io/profile-card-component/)
 
 ## My process
 
