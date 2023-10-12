@@ -21,4 +21,148 @@
 
     /* Neutral */
     --dark-gray: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/*_*_*_* Body Styling *_*_*_*/
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: 
+        url(../images/bg-pattern-bottom.svg) left 50vw top 50vh no-repeat, 
+        url(../images/bg-pattern-top.svg) right 50vw bottom 45vh no-repeat;
+
+    background-color: var(--dark-cyan);
+}
+
+/*_*_*_* Main Container Styling *_*_*_*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    position: relative;
+
+
+    height: 374px;
+
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+/*_*_*_* Top design and Profile Picture Stying *_*_*_*/
+.container > .top-design {
+    height: 140px;
+}
+
+.container > .avatar_img {
+    height: 96px;
+
+    border-radius: 50%;
+    border: 5px solid white;
+
+    position: absolute;
+    top: 92px;
+    left: 127px;
+} 
+
+/*_*_*_* Main Body Text Styling *_*_*_*/
+
+.container > .body_text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container > .body_text > .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+
+    margin: 72px 0 0 0;
+}
+
+.container > .body_text > .title > .age {
+    color: var(--dark-grayish-blue);
+}
+
+.container > .body_text > .place {
+    font-size: 14px;
+    color: var(--dark-grayish-blue);
+
+    margin: 8px 0 0 0;
+}
+
+
+/*_*_*_* Line Styling *_*_*_*/
+.container > .body_text > .line {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid var(--dark-gray);
+
+    margin: 28px 0 0 0;
+}
+
+
+/*_*_*_* Bottom Text -Styling *_*_*_*/
+.container > .body_text > .stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 0 47px;
+
+    width: 249px;
+    height: 40px;
+
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.container > .body_text > .stats > .card {
+    width: 60px;
+}
+
+.container > .body_text > .stats > .card > h1 {
+    font-size: 1.125em;
+}
+
+.container > .body_text > .stats > .card > p {
+    font-size: 0.625em;
+    letter-spacing: 0.094rem;
+    color: var(--dark-grayish-blue);
+
+    margin-top: 3px;
+}
+
+.top-left-design {
+    position: absolute;
+    bottom: 50px;
+    right: 545.16px;
+    width: 978px;
+    height: 976px;
+}
+
+.bot-right-design {
+    position: absolute;
+}
+
+/*_*_*_* Media Queries For Mobile  *_*_*_*/ 
+@media screen and (max-width: 500px) {
+    .container {
+        width: 326px;
+    }
+
+    .container > .body_text > .stats {
+        margin-left: 41px;
+    }
+
+    .container > .avatar_img {
+        left: 115px;
+    }
 }
